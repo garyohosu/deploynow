@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="星灯りのタロットのOG画像">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#120f26"/>
+      <stop offset="55%" stop-color="#1e1742"/>
+      <stop offset="100%" stop-color="#07060d"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="30%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#6d4eff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6d4eff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="70%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#7ce7d6" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7ce7d6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6e9ff"/>
+      <stop offset="55%" stop-color="#c8a5ff"/>
+      <stop offset="100%" stop-color="#7ce7d6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="240" cy="130" r="210" fill="url(#orb1)"/>
+  <circle cx="960" cy="160" r="190" fill="url(#orb2)"/>
+  <circle cx="620" cy="520" r="220" fill="#c77dff" opacity="0.12"/>
+
+  <g opacity="0.7" fill="#fff">
+    <circle cx="120" cy="90" r="2.2"/>
+    <circle cx="1020" cy="110" r="2"/>
+    <circle cx="1080" cy="500" r="1.8"/>
+    <circle cx="180" cy="520" r="1.9"/>
+    <circle cx="830" cy="470" r="1.6"/>
+    <circle cx="470" cy="150" r="1.7"/>
+    <circle cx="710" cy="100" r="1.5"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="110" y="110" width="980" height="410" rx="34" fill="rgba(18,15,38,0.72)" stroke="rgba(255,255,255,0.12)"/>
+    <rect x="150" y="150" width="900" height="330" rx="24" fill="none" stroke="url(#card)" stroke-width="3" opacity="0.85"/>
+  </g>
+
+  <g transform="translate(200 195)">
+    <rect x="0" y="0" width="200" height="260" rx="20" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)"/>
+    <rect x="20" y="20" width="160" height="220" rx="16" fill="none" stroke="url(#card)" stroke-width="2" opacity="0.8"/>
+    <path d="M100 36l12 30 30 12-30 12-12 30-12-30-30-12 30-12z" fill="url(#card)"/>
+  </g>
+
+  <g transform="translate(470 195)">
+    <rect x="0" y="0" width="200" height="260" rx="20" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)"/>
+    <rect x="20" y="20" width="160" height="220" rx="16" fill="none" stroke="url(#card)" stroke-width="2" opacity="0.8"/>
+    <path d="M100 36l12 30 30 12-30 12-12 30-12-30-30-12 30-12z" fill="url(#card)"/>
+  </g>
+
+  <g transform="translate(740 195)">
+    <rect x="0" y="0" width="200" height="260" rx="20" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)"/>
+    <rect x="20" y="20" width="160" height="220" rx="16" fill="none" stroke="url(#card)" stroke-width="2" opacity="0.8"/>
+    <path d="M100 36l12 30 30 12-30 12-12 30-12-30-30-12 30-12z" fill="url(#card)"/>
+  </g>
+
+  <text x="600" y="92" text-anchor="middle" fill="#7ce7d6" font-size="22" letter-spacing="6" font-family="Cinzel, serif">TAROT DIVINATION</text>
+  <text x="600" y="580" text-anchor="middle" fill="#f6e9ff" font-size="66" font-weight="700" font-family="Zen Kaku Gothic New, system-ui, sans-serif">星灯りのタロット</text>
+  <text x="600" y="614" text-anchor="middle" fill="#c7bddf" font-size="24" font-family="Zen Kaku Gothic New, system-ui, sans-serif">直感で1回引くだけ。3枚で今日の流れを読み解く</text>
+</svg>
